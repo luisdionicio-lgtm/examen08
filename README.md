@@ -48,30 +48,70 @@ http://127.0.0.1:8000/api/
 
 
 ##### EJEMPLOS REALIZADOS - EVIDENCIAS REALIZADAS
+## 📌 Crear Plato (POST)
+![](./pruebas/POST.png)
+## 📌 JSON de creación de Plato
+![](./pruebas/json.png)
 
+## 📌 Segundo JSON / detalle de Plato
+![](./pruebas/json2.png)
 
-##### 1 ######
+## 📌 Listado general de Platos (GET)
+![](./pruebas/GET.png)
 
+## 📌 JSON listado de Platos
+![](./pruebas/json_platos.png)
 
+## 📌 Vista visual de Platos
+![](./pruebas/platos.png)
 
-##### 2 ######
+## 📌 Búsqueda de Plato por nombre
+![](./pruebas/lomo_nombre.png)
 
+## 📌 Búsqueda de Plato por categoría
+![](./pruebas/categoria.png)
 
+## 📌 Actualización de Plato
+![](./pruebas/actualizar_plato.png)
 
-##### 3 ######
+## 📌 Eliminación de Plato
+![](./pruebas/delete.png)
 
+## 📌 Resultado eliminación de Plato
+![](./pruebas/delete_visual_json.png)
 
+## 📌 Crear Pedido (POST)
+![](./pruebas/POST_crear_pedido.png)
 
-##### 4 ######
+## 📌 JSON creación de Pedido
+![](./pruebas/json_pedidos.png)
 
+## 📌 Listado general de Pedidos (GET)
+![](./pruebas/GET_Listar_pedidos.png)
 
+## 📌 JSON listado de Pedidos
+![](./pruebas/pedidos_json.png)
 
-##### 5 ######
+## 📌 GET adicional de Pedidos
+![](./pruebas/get_.png)
 
+## 📌 Búsqueda de Pedido por estado
+![](./pruebas/pendiente.png)
 
+## 📌 Búsqueda de Pedido por plato
+![](./pruebas/Busqueda_pedido.png)
 
-##### 6 ######
+## 📌 Búsqueda de Pedido por categoría
+![](./pruebas/Busqueda_bebida.png)
 
+## 📌 Actualización de Pedido
+![](./pruebas/PUT_Actualizar_pedido.png)
 
+## 📌 Eliminación de Pedido
+![](./pruebas/DELETE_pedido1.png)
 
-##### 7 ######
+## 📌 Pedido eliminado visualmente
+![](./pruebas/pedido_eliminado.png)
+
+## 📌 Resultado final de eliminación de Pedido
+![](./pruebas/resultado_pedido_eliminado.png)
