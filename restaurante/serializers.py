@@ -13,4 +13,15 @@ class PedidoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Pedido
-        fields = ['id', 'fecha', 'total', 'estado', 'platos', 'platos_detalle']
+        fields = ['id', 'fecha', 'total', 'estado', 'platos', 'platos_detalle']  
+             
+class PlatoSerializer(serializers.ModelSerializer):
+    pedidos_ids = serializers.PrimaryKeyRelatedField(
+        many=True,
+        read_only=True,
+        source='pedidos'
+    )
+
+    class Meta:
+        model = Plato
+        fields = ['id', 'nombre', 'precio', 'categoria', 'pedidos_ids']
